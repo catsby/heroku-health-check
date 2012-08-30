@@ -1,2 +1,5 @@
-require 'health/heroku/command/health'
-Heroku::Command.global_option :health, "--app APP"
+require 'heroku/command'
+
+def index
+  puts "hello world"
+end
