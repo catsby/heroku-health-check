@@ -1,4 +1,4 @@
-require 'heroku/command/base'
+require 'heroku/command'
 
 class Heroku::Command::Health < Heroku::Command::Base
   def index
